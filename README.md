@@ -8,7 +8,7 @@ This repository is intended to accompany the ["Parameterized Tests"](https://ddc
 
 ## Test cases
 
-The following test cases may be used in unit testing the `Converter.convertC2F` and `Converter.convertF2C` methods. Note that some of the values are actually approximations of repeating decimals; for this reason (as well as the fact that floating-point computations should not, as a rule, be regarded as exact), a tolerance should be used when testing expected vs. actual values. We recommend using a tolerance of equivalent magnitude in both scales&mdash;e.g. 0.0005&deg;C and 0.0009&deg;F.
+The following test cases may be used in unit testing the `Converter.convertC2F` and `Converter.convertF2C` methods. Note that some of the values are actually approximations of repeating decimals; for this reason (as well as the fact that floating-point computations should not, as a rule, be regarded as exact), a tolerance should be used when testing expected vs. actual values. We recommend using a tolerance of equivalent magnitude for the two scales&mdash;e.g. 0.0005&deg;C and 0.0009&deg;F.
 
 | Celsius | Fahrenheit |
 |:-------:|:----------:|
